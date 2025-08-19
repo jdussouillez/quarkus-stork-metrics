@@ -21,7 +21,7 @@ public class HelloGrpcApiService implements HelloGrpcApi {
     @Override
     public Uni<HelloResponse> sayHello(final HelloRequest req) {
         return Uni.createFrom()
-            .item(() -> String.format("Hello %s (sent from %s)", req.getName(), serverId))
+            .item(() -> String.format("Hello %s! (sent from %s)", req.getName(), serverId))
             .map(msg -> HelloResponse.newBuilder().setMessage(msg).build());
     }
 
