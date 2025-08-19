@@ -44,6 +44,10 @@
             <artifactId>quarkus-micrometer-registry-prometheus</artifactId>
         </dependency>
         <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-stork</artifactId>
+        </dependency>
+        <dependency>
             <groupId>io.smallrye.stork</groupId>
             <artifactId>stork-service-discovery-static-list</artifactId>
         </dependency>

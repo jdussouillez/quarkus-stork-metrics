@@ -14,7 +14,7 @@ public class HelloService {
 
     private static final Logger LOG = Logger.getLogger(HelloService.class);
 
-    @GrpcClient("hello-server")
+    @GrpcClient("hello")
     protected HelloGrpcApi helloGrpcApi;
 
     @Scheduled(every = "2s")
