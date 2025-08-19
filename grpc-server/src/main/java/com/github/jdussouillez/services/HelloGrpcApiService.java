@@ -1,8 +1,8 @@
 package com.github.jdussouillez.services;
 
-import com.hififilter.hannibal.api.grpc.HelloGrpcApi;
-import com.hififilter.hannibal.api.grpc.HelloRequest;
-import com.hififilter.hannibal.api.grpc.HelloResponse;
+import com.github.jdussouillez.hello.HelloGrpcApi;
+import com.github.jdussouillez.hello.HelloRequest;
+import com.github.jdussouillez.hello.HelloResponse;
 import io.quarkus.grpc.GrpcService;
 import io.quarkus.runtime.StartupEvent;
 import io.smallrye.mutiny.Uni;
