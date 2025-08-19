@@ -1,0 +1,2 @@
+#!/bin/bash
+./mvnw -DQUARKUS_HTTP_PORT=8082 -DQUARKUS_GRPC_SERVER_PORT=8092 -DSERVER_ID=red quarkus:dev
