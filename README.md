@@ -2,6 +2,8 @@
 
 Project to reproduce issues with metrics with Quarkus Stork extension
 
+See https://github.com/quarkusio/quarkus/issues/49605
+
 ## How to run
 
 Start 3 terminals and start both gRPC servers and the gRPC client.
